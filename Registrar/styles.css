@@ -1,0 +1,76 @@
+/* Futuristic Styling for ACM Registration Form */
+
+body {
+    background: linear-gradient(135deg, #1b2735, #090a0f);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: auto; /* Make the page scrollable vertically */
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px; /* Increased padding */
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    max-width: 400px;
+    width: 100%;
+    margin: 20px; /* Added margin to prevent touching the edges of the screen */
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin */
+    color: #00ffcc;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    margin: 12px 0; /* Increased margin */
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 1em;
+    outline: none;
+    transition: background 0.3s;
+}
+
+input:hover, select:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+input[type="submit"] {
+    background: #00ffcc;
+    color: #090a0f;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    padding: 15px; /* Added padding */
+}
+
+input[type="submit"]:hover {
+    background: #00cc99;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /* Increased margin */
+    color: #00ffcc;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 0.9em; /* Slightly increased font size */
+    color: #666;
+}
